@@ -4,17 +4,17 @@ const people = [
   {
     name: "Github",
     role: "https://github.com/joser27",
-    imageUrl: "/github.svg",
+    imageUrl: "./github.svg",
   },
   {
     name: "Linkedin",
     role: "https://www.linkedin.com/in/joser27/",
-    imageUrl: "/linkedin.svg",
+    imageUrl: "./linkedin.svg",
   },
   {
     name: "Email",
     role: "joserodriguez2761@yahoo.com",
-    imageUrl: "/email.svg",
+    imageUrl: "./email.svg",
   },
 ];
 

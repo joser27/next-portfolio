@@ -13,7 +13,7 @@ const ProjectsPage = () => {
       <Hero
         link="/projects/projectJam"
         htext="UWT Game Spring Game Dev"
-        image="/UWTGame.jpg"
+        image="./UWTGame.jpg"
       >
         Fun personal game I worked on during the two-week phase of the UWT Game
         Spring Jam. I challenged myself by learning JavaScript, a new
@@ -24,7 +24,7 @@ const ProjectsPage = () => {
       <Hero
         link="/projects/projectBook"
         htext="UWT Book store"
-        image="/bookStore.svg"
+        image="./bookStore.svg"
       >
         Back-end and front-end development. Used Docker, Postman, and PostgreSQL
         for the back-end. Utilized Next.js and MUI for CSS on the front-end.
@@ -36,7 +36,7 @@ const ProjectsPage = () => {
       <Hero
         link="/projects/projectTetris"
         htext="Tetris project"
-        image="/tetris.svg"
+        image="./tetris.svg"
       >
         Worked in a group with peers. Learned valuable lessons in version
         control and proper communication with group members. Practiced best
@@ -47,7 +47,7 @@ const ProjectsPage = () => {
       <Hero
         link="/projects/projectDungeon"
         htext="Dungeon Adventure project"
-        image="/dungeonAdventure.jpg"
+        image="./dungeonAdventure.jpg"
       >
         Developed using Java swing. Learned new software development practices
         and patterns such as Test Case Design and Execution, Toggle-User Story
@@ -57,7 +57,7 @@ const ProjectsPage = () => {
         Standards, and Agile Software Development.
       </Hero>
       <div className="divider"></div>
-      <Hero link="/" htext="Portfolio" image="/favicon.ico">
+      <Hero link="/" htext="Portfolio" image="./favicon.ico">
         This website built using next.js! My first time building from scratch
         using next.js from the experience i got from UWT Bookstore. I Learned
         new front-end techniques and frameworks like Tailwind CSS.

@@ -41,7 +41,7 @@ const AboutMePage = () => {
         <Hero
           link="https://en.wikipedia.org/wiki/Mercedes-Benz_W201"
           htext="Mercedes 190e"
-          image="/190e.gif"
+          image="./190e.gif"
         >
           The Mercedes-Benz 190E, a compact executive car produced from 1982 to
           1993, gained prominence in motorsport, notably in the Deutsche
@@ -62,7 +62,7 @@ const AboutMePage = () => {
         <Hero
           link="https://www.pixilart.com/gallery"
           htext="Pixel Art"
-          image="/stardew.jpg"
+          image="./stardew.jpg"
         >
           Pixel art is one of my favorite types of art! Its so simple but can do
           extremelty pleasing. One of my favorite games that uses pixel art is
@@ -75,7 +75,7 @@ const AboutMePage = () => {
         <Hero
           link="https://www.javascript.com/"
           htext="Coding"
-          image="/favicon.ico"
+          image="./favicon.ico"
         >
           Just like art, coding gives the freedom of creating anything
           imaginable. This is the reason i enjoy it so much! I love working on
