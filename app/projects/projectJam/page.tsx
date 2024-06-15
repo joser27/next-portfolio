@@ -23,8 +23,8 @@ const ProjectJamPage = () => {
           </h2>
           <p>
             A 2D story game inspired by Stardew Valley, where players embark on
-            a quest in a top-down view to retrieve the town's centerpiece for
-            the Spring festival. The game is designed as a challenging adventure
+            a quest in a top-down view to retrieve the towns centerpiece for the
+            Spring festival. The game is designed as a challenging adventure
             where players venture out, encountering and fighting monsters to
             obtain this essential item.
           </p>

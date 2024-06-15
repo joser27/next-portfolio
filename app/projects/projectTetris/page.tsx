@@ -32,9 +32,9 @@ const ProjectTetrisPage = () => {
           </h2>
           <p>
             A 2D game where players experience the classic game Tetris. This
-            rendition includes an algorithm that dynamically increases the
-            game's difficulty as players progress. It encompasses all the
-            essential functions found in the original Tetris game
+            rendition includes an algorithm that dynamically increases the games
+            difficulty as players progress. It encompasses all the essential
+            functions found in the original Tetris game
           </p>
           <br />
           <br />
