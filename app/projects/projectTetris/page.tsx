@@ -13,12 +13,9 @@ const ProjectTetrisPage = () => {
       <br />
       <div className="flex justify-center">
         <div>
-          <Image
-            className="rounded-2xl shadow-lg"
-            src="/tetris.gif"
-            width={500}
-            height={500}
-            alt="image"
+          <img
+            src="../tetris.gif"
+            className="w-[400px] h-[600px] rounded-2xl"
           />
         </div>
       </div>

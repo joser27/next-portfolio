@@ -14,13 +14,7 @@ const ProjectDungeonPage = () => {
       <br />
       <div className="flex justify-center">
         <div>
-          <Image
-            className="rounded-2xl shadow-lg"
-            src="/dungeonAdventure.gif"
-            width={500}
-            height={500}
-            alt="image"
-          />
+          <img src="../dungeonAdventure.gif" className="w-full rounded-2xl" />
         </div>
       </div>
       <br />
