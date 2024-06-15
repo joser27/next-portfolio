@@ -43,15 +43,12 @@ const AboutMePage = () => {
           htext="Mercedes 190e"
           image="./190e.gif"
         >
-          The Mercedes-Benz 190E, a compact executive car produced from 1982 to
-          1993, gained prominence in motorsport, notably in the Deutsche
-          Tourenwagen Masters (DTM) series. Dubbed the Baby Benz, it boasted
-          engineering excellence akin to its larger counterparts. In DTM, the
-          190E, particularly the Evo models, showcased Mercedes-Benzs prowess,
-          dominating tracks with enhanced aerodynamics, powerful engines, and
-          superior handling. Its success in DTM solidified its stature as a
-          competitive force in touring car racing, leaving an indelible mark on
-          motorsport history.
+          The Mercedes-Benz 190E, produced from 1982 to 1993, excelled in
+          motorsport, notably in the Deutsche Tourenwagen Masters (DTM) series.
+          Known as the Baby Benz, it displayed engineering excellence similar to
+          larger models. In DTM, especially with Evo versions, it showcased
+          superior aerodynamics, powerful engines, and exceptional handling,
+          establishing its legacy in touring car racing.
         </Hero>
         <br />
         <Carousel />

@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en" data-theme="aqua">
       <head>
-        <link rel="UW icon" href="/Washington_Huskies_logo.svg"></link>
+        <link rel="UW icon" href="./Washington_Huskies_logo.svg"></link>
       </head>
       <body className={inter.className}>{children}</body>
     </html>

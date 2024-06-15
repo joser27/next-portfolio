@@ -1,6 +1,5 @@
 import Link from "next/link";
 import React from "react";
-import Avatar from "./Avatar";
 
 const NavBar = () => {
   return (
@@ -20,9 +19,7 @@ const NavBar = () => {
         </Link>
       </div>
       <div className="flex justify-center" />
-      <div>
-        <Avatar />
-      </div>
+      <div></div>
     </div>
   );
 };
