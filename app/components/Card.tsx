@@ -5,7 +5,7 @@ const ProfileCard = () => {
     <div className="max-w-2xl mx-auto bg-base-200 shadow-lg rounded-lg overflow-hidden">
       <div className="flex items-center p-6">
         <img
-          src="/profilepic.jpg"
+          src="./profilepic.jpg"
           alt="Profile Picture"
           className="w-32 h-32 rounded-full object-cover mr-6"
         />
