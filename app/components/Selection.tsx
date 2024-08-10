@@ -13,7 +13,7 @@ const people = [
   },
   {
     name: "Email",
-    role: "joserodriguez2761@yahoo.com",
+    role: "joser27@uw.edu",
     imageUrl: "./email.svg",
   },
 ];

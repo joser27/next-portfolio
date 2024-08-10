@@ -3,11 +3,10 @@ import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import Divider from "../components/Divider";
 import Hero from "../components/Hero";
-import Avatar from "../components/Avatar";
-import Rating from "../components/Rating";
 import Table from "../components/Table";
 import TableFrameWork from "../components/TableFrameWork";
 import Carousel from "../components/Carousel";
+import Card from "../components/Card";
 
 const AboutMePage = () => {
   return (
@@ -15,16 +14,10 @@ const AboutMePage = () => {
       <NavBar />
 
       <h1 className="text-2xl">About me</h1>
-      <br />
-      <Divider color="bg-base-200">
-        <br />
-        Hi my name is Jose Rodriguez. I am a student at the University of
-        Washington Tacoma. I enjoy creating new and unique projects. I am
-        passionate about learning new things when it comes to improving my
-        projects and my overall self.
-        <br />
-        <br />
-      </Divider>
+      <div className="divider"></div>
+
+      <Card />
+
       <br />
       <h1 className="text-2xl">My experience</h1>
       <br />
