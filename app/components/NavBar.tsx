@@ -1,26 +1,41 @@
-import Link from "next/link";
+"use client";
 import React from "react";
 
 const NavBar = () => {
+  const scrollToSection = (id: string) => {
+    const element = document.getElementById(id);
+    element?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
-    <div className="navbar bg-base-100 flex justify-between">
-      <div>
-        <Link href="/">
-          <button className="btn btn-ghost text-xl">Home</button>
-        </Link>
-        <Link href="/about">
-          <button className="btn btn-ghost text-xl">About</button>
-        </Link>
-        <Link href="/projects">
-          <button className="btn btn-ghost text-xl">Projects</button>
-        </Link>
-        <Link href="/contactme">
-          <button className="btn btn-ghost text-xl">Contact</button>
-        </Link>
+    <nav className="fixed top-0 left-0 right-0 z-10 bg-gray-400">
+      <div className="flex justify-center w-full">
+        <button
+          onClick={() => scrollToSection("home")}
+          className="btn btn-ghost text-xl"
+        >
+          Home
+        </button>
+        <button
+          onClick={() => scrollToSection("about")}
+          className="btn btn-ghost text-xl"
+        >
+          About
+        </button>
+        <button
+          onClick={() => scrollToSection("projects")}
+          className="btn btn-ghost text-xl"
+        >
+          Projects
+        </button>
+        <button
+          onClick={() => scrollToSection("contact")}
+          className="btn btn-ghost text-xl"
+        >
+          Contact
+        </button>
       </div>
-      <div className="flex justify-center" />
-      <div></div>
-    </div>
+    </nav>
   );
 };
 
