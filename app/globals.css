@@ -15,11 +15,12 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+
 body {
   text-align: center;
-
+  color: rgb(var(--foreground-rgb)); 
+  background: rgb(var(--background-start-rgb));
 }
-
 
 @layer utilities {
   .text-balance {

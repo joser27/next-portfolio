@@ -1,26 +1,26 @@
-import React from "react";
+import Image from "next/image";
 
-const ProfileCard = () => {
+interface CardProps {
+  imageSrc: string;
+  altText: string;
+  content: string;
+}
+
+export default function Card({ imageSrc, altText, content }: CardProps) {
   return (
-    <div className="max-w-2xl mx-auto bg-base-200 shadow-lg rounded-lg overflow-hidden">
-      <div className="flex items-center p-6">
-        <img
-          src="./profilepic.jpg"
-          alt="Profile Picture"
-          className="w-32 h-32 rounded-full object-cover mr-6"
+    <div className="flex flex-col md:flex-row bg-white rounded-lg shadow-md overflow-hidden">
+      <div className="md:w-1/3">
+        <Image
+          src={imageSrc}
+          alt={altText}
+          width={300}
+          height={300}
+          className="w-full h-full object-cover"
         />
-        <div>
-          <h2 className="text-xl font-semibold mb-2">Jose Rodriguez</h2>
-          <p className="text-base-content">
-            Hi, my name is Jose Rodriguez. I am a student at the University of
-            Washington Tacoma. I enjoy creating new and unique projects. I am
-            passionate about learning new things when it comes to improving my
-            projects and my overall self.
-          </p>
-        </div>
+      </div>
+      <div className="md:w-2/3 p-6">
+        <p className="text-gray-700">{content}</p>
       </div>
     </div>
   );
-};
-
-export default ProfileCard;
+}

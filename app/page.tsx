@@ -1,11 +1,13 @@
 import NavBar from "./components/NavBar";
-import Footer from "./components/Footer";
-import CenterHero from "./components/CenterHero";
+import Home from "./components/Home";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 
-export default function Home() {
+export default function HomePage() {
   return (
     <div
-      className="flex flex-col min-h-screen bg-gray-100 bg-opacity-50 bg-[url('data:image/svg+xml,...')]"
+      className="flex flex-col min-h-screen bg-gray-100 bg-opacity-50"
       style={{ backgroundImage: "url('Tree.png')" }}
     >
       <div className="w-full flex justify-center">
@@ -15,33 +17,12 @@ export default function Home() {
       </div>
       <main className="flex-grow flex justify-center">
         <div className="w-full max-w-4xl bg-white">
-          <section
-            id="home"
-            className="min-h-screen flex items-center justify-center"
-          >
-            "Hello World, Welcome to my Portfolio!"
-          </section>
-          <section
-            id="about"
-            className="min-h-screen flex items-center justify-center"
-          >
-            "ABOUT ME"
-          </section>
-          <section
-            id="projects"
-            className="min-h-screen flex items-center justify-center"
-          >
-            "PROJECTS"
-          </section>
-          <section
-            id="contact"
-            className="min-h-screen flex items-center justify-center"
-          >
-            "CONTACT"
-          </section>
+          <Home />
+          <About />
+          <Projects />
+          <Contact />
         </div>
       </main>
-      <Footer />
     </div>
   );
 }
