@@ -8,7 +8,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-10 bg-[#4b2e83]">
+    <nav className="fixed top-0 left-0 right-0 z-10 bg-[#303031]">
       <div className="flex justify-center w-full">
         <button
           onClick={() => scrollToSection("home")}
