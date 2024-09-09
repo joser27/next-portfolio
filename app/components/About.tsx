@@ -8,7 +8,7 @@ export default function About() {
       className="min-h-screen flex flex-col items-center justify-center p-8 bg-[rgb(31,31,31)] text-gray-200"
     >
       <Card
-        imageSrc="/profilepic.png"
+        imageSrc="profilepic.png"
         altText="Jose Rodriguez"
         title="About Me"
         content="I'm a passionate web developer and student at the University of Washington Tacoma. I love creating user-friendly and efficient web applications that solve real-world problems."
