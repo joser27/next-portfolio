@@ -40,5 +40,5 @@ To run this project locally:
 Feel free to reach out to me:
 
 - Email: joser27@uw.edu
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/joser27)
-- GitHub: [Your GitHub Profile](https://github.com/joser27)
+- LinkedIn: [joser27](https://www.linkedin.com/in/joser27)
+- GitHub: [joser27](https://github.com/joser27)
