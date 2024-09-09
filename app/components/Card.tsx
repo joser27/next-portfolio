@@ -23,7 +23,7 @@ export default function Card({
           alt={altText}
           width={300}
           height={300}
-          className="w-full h-full object-cover"
+          className="rounded-full mb-4"
         />
       </div>
       <div className="md:w-2/3 p-8">
