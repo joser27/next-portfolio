@@ -7,7 +7,6 @@ export default function Projects() {
       gifUrl: "dungeonAdventure.gif",
       tags: [
         "Java",
-        "Swing",
         "OOP",
         "MVC",
         "Singleton Pattern",
@@ -31,23 +30,26 @@ export default function Projects() {
       ],
     },
     {
-      title: "UWT Game Spring Game Dev",
+      title: "The Experiment",
       description:
-        "A 2D story game inspired by Stardew Valley, developed for the UWT Spring Game Jam. Players embark on a quest to retrieve the town's centerpiece for the Spring festival, fighting monsters along the way.",
-      gifUrl: "UWTGame.jpg",
+        "A 2D horror survival game inspired by Ao Oni, developed as a side project during TCSS 491. Players control one of four teenagers trapped in a mysterious mansion, searching for items to escape while being hunted by a creature. The story unfolds around Mr. Harrison's disturbing experiments and sudden disappearance. Built using a custom JavaScript game engine.",
+      gifUrl: "TheExperiment.png",
       tags: [
         "JavaScript",
         "HTML5 Canvas",
         "Game Development",
-        "2D Graphics",
-        "Event Handling",
+        "Custom Game Engine",
+        "Sprite Animation",
+        "Collision Detection",
+        "Path Finding",
+        "Story Design"
       ],
-      playLink: "https://joser27.github.io/UWT-Spring24-GAME/",
+      playLink: "https://joser27.github.io/TCSS491-MiniGameOpen/",
     },
     {
       title: "UWT Bookstore",
       description:
-        "A full-stack educational project developed for the University of Washington Tacoma. Features include CRUD operations for book management, secure API endpoints, and a responsive user interface.",
+        "A full-stack educational project developed for TCSS 460: Client/Server Programming For Internet Applications. Features include CRUD operations for book management, secure API endpoints, and a responsive user interface. Built with modern web technologies and containerized using Docker.",
       gifUrl: "bookStore.svg",
       tags: [
         "Next.js",
@@ -58,6 +60,40 @@ export default function Projects() {
         "Node.js",
         "API Development",
       ],
+    },
+    {
+      title: "Just Pong",
+      description: "A modern take on the classic Pong game, featuring a high-score leaderboard powered by a PostgreSQL database. Built using JavaScript and HTML5 Canvas for smooth gameplay, with a containerized backend API using Docker and hosted on Railway for real-time score tracking.",
+      gifUrl: "pong.png",
+      tags: [
+        "JavaScript",
+        "HTML5 Canvas",
+        "Game Development",
+        "REST API",
+        "PostgreSQL",
+        "Docker",
+        "Node.js",
+        "Express",
+        "Vercel",
+        "Railway",
+      ],
+      playLink: "https://just-pong.vercel.app/",
+    },
+    {
+      title: "Stickman The Savior, A Beat 'Em Up Adventure",
+      description:
+        "A 2D side-scrolling beat 'em up game developed as part of TCSS 491: Game And Simulation Design. Created with a team of 3 using a custom JavaScript game engine, featuring combat mechanics, character animations, and level progression. Built using HTML5 Canvas and JavaScript.",
+      gifUrl: "stickman_the_savior.png",
+      tags: [
+        "JavaScript",
+        "HTML5 Canvas",
+        "Game Development",
+        "Custom Game Engine",
+        "Team Project",
+        "Sprite Animation",
+        "Collision Detection",
+      ],
+      playLink: "https://joser27.github.io/TCSS491-GameProject/",
     },
   ];
 
