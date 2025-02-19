@@ -1,44 +1,24 @@
-# Jose Rodriguez - Personal Portfolio
+# Jose Rodriguez - Software Developer Portfolio
 
-Welcome to my personal portfolio repository! This project showcases my skills, projects, and experience.
+## About Me
+I'm a senior Computer Science student at the University of Washington Tacoma, passionate about software development across various domains including cloud computing, game development, and full-stack applications. This portfolio showcases my projects and skills developed through my academic journey and personal endeavors.
 
-## 🚀 Live Demo
+## 🚀 Portfolio Website
+Visit my portfolio at: [joser27.github.io/next-portfolio/](https://joser27.github.io/next-portfolio/)
 
-Visit my portfolio at: [https://joser27.github.io/next-portfolio/](https://joser27.github.io/next-portfolio/)
+## 🎮 Featured Projects
+- **Beat 'Em Up Adventure** - A 2D side-scrolling game developed in TCSS 491
+- **The Experiment** - A horror survival game inspired by Ao Oni
+- **Just Pong** - A modern take on the classic game with online leaderboards
+- **UWT Bookstore** - A full-stack application developed for TCSS 460
 
-## 🛠 Technologies Used
+## 💻 Technical Skills
+- **Languages:** Java, Python, JavaScript, TypeScript
+- **Software Development:** React, Next.js, Node.js, Spring Boot
+- **Cloud & DevOps:** Docker, AWS, PostgreSQL
+- **Tools & Practices:** Git, Agile, CI/CD
 
-- Next.js
-- React
-- TypeScript
-- Tailwind CSS
-
-## 🌟 Features
-
-- Responsive design
-- Interactive project showcase
-- Skills and experience highlights
-- Contact form
-
-## 🏗 Project Structure
-
-- `app/`: Next.js app directory
-- `components/`: Reusable React components
-- `public/`: Static assets
-
-## 🚀 Getting Started
-
-To run this project locally:
-
-1. Clone the repository
-2. Install dependencies: `npm install`
-3. Run the development server: `npm run dev`
-4. Open [http://localhost:3000](http://localhost:3000) in your browser
-
-## 📬 Contact
-
-Feel free to reach out to me:
-
+## 📫 Contact
 - Email: joser27@uw.edu
 - LinkedIn: [joser27](https://www.linkedin.com/in/joser27)
 - GitHub: [joser27](https://github.com/joser27)
