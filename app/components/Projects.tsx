@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 export default function Projects() {
   const projects = [
     {
@@ -114,11 +112,10 @@ export default function Projects() {
             className="bg-[rgb(41,41,41)] rounded-xl shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-2xl"
           >
             <div className="relative h-56 bg-gray-700">
-              <Image
+              <img
                 src={project.gifUrl}
                 alt={project.title}
-                fill
-                className="object-cover object-center"
+                className="absolute w-full h-full object-cover object-center"
               />
             </div>
             <div className="p-6">
